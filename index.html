@@ -1,0 +1,52 @@
+<HTML lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title >Podstawa</title>
+        
+    </head>
+    <body onload="timer()">
+        <h1>Ta strona prezentuje pare podstawowych umiejętności w JavaScript</h1>
+        <div id="zegar"></div>
+        <input id="display" type="text" value="0" aria-label="Search">
+        <table id="machine">
+            <tr>
+                <td><input  type="button" value="1"onclick="display(1)" ></td>
+                <td><input type="button" value="2"onclick="display(2)"></td>
+                <td><input type="button" value="3"onclick="display(3)"></td>
+                <td><input type="button" value="/"onclick="memory('/')"></td>
+
+            </tr>
+            <tr>
+                <td><input  type="button" value="4"onclick="display(4)" ></td>
+                <td><input type="button" value="5"onclick="display(5)"></td>
+                <td><input type="button" value="6"onclick="display(6)"></td>
+                <td><input type="button" value="*"onclick="memory('*')"></td>
+
+            </tr>
+            <tr>
+                <td><input  type="button" value="7"onclick="display(7)" ></td>
+                <td><input type="button" value="8"onclick="display(8)"></td>
+                <td><input type="button" value="9"onclick="display(9)"></td>
+                <td><input type="button" value="-"onclick="memory('-')"></td>
+
+            </tr>
+            <tr>
+                <td><input  type="button" value="."onclick="display('.')" ></td>
+                <td><input type="button" value="+"onclick="memory('+')"></td>
+                <td><input type="button" value="+/-"onclick="negation('+\-')"></td>
+                <td><input type="button" value="sqrt"onclick="negation('sqrt')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="0"onclick="display(0)"></td>
+                <td><input type="button" value="="onclick="finalisation()"></td>
+                <td><input type="button" value="C"onclick="clean('C')"></td>
+                <td><input type="button" value="CE"onclick="clean('CE')"></td>
+               
+            </tr>
+
+
+        </table>
+        <script src="skrypt.js" ></script>
+    </body>
+</HTML>
