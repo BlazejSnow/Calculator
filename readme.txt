@@ -5,5 +5,5 @@ Second : Fast calculation by click on operation key without equal sign. If you p
 Third : If a number have '.' arledy you can not add another dot, 3.3.3.3.3.3 is unacceptable
 Fourth : C and CE key, C is used to cancel. after click on C everything go back to beggining,after press CE only this what is actuall display is equal to 0 rest is still in memory
 Fifth: We only want to see the operation that we are doing at the momment. If I am writhing a number I only want to see this number, If I am using operation key I want to see what operation I am doing.
-Sixth: All basic math rules like you can't divide by zero ,you can only square root with number larger or qual to zero
-Seventh: All operation is doing on number not a string.
+Sixth: All basic math rules like: you can't divide by zero ,you can only do square root with number larger or equal to zero
+Seventh: All operations are on number not a string.
